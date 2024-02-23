@@ -1,6 +1,3 @@
-Here's the updated README file for the GitHub repository at https://github.com/anxkhn/Eleetcode-Addon-Extention:
-
----
 
 # Eleetcode Addon Extension
 
