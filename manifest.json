@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Eleetcode Addons",
+  "name": "Eleetcode Addons : Cloud",
   "version": "1.0",
   "action": {
     "default_icon": {

@@ -9,7 +9,7 @@ if (loadButton) {
       console.log('Message sent to background script');
       if (response && response.success) {
         console.log('Problems successfully loaded:', response);
-        window.location.href = 'http://127.0.0.1:5000/profile';
+        window.location.href = 'http://leetcode-importer.onrender.com/profile';
       } else {
         console.log('Problems failed to load:', response.error);
       }
