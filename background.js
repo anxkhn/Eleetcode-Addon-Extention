@@ -1,10 +1,10 @@
 chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
   if (request.action === 'loadProblems') {
-    if (sender.tab.url === 'http://127.0.0.1:5000/login') {
+    if (sender.tab.url === 'https://leetcode-importer.onrender.com/login') {
       fetch('https://leetcode.com/api/problems/all/')
       .then(response => response.text())
       .then(htmlContent => {
-        fetch('http://127.0.0.1:5000/login_with_extention', {
+        fetch('https://leetcode-importer.onrender.com/login_with_extention', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json'

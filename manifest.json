@@ -16,7 +16,7 @@
   },
   "content_scripts": [
     {
-      "matches": ["http://127.0.0.1:5000/login"],
+      "matches": ["https://leetcode-importer.onrender.com/login"],
       "js": ["content.js"]
     }
   ]
