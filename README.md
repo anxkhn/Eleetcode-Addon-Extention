@@ -1,4 +1,3 @@
-
 # Eleetcode Addon Extension
 
 Eleetcode Addon Extension is a Google Chrome extension designed to simplify access to Leetcode and streamline the process of fetching solved questions. It is meant to be used with EleetCode / [Leetcode Importer](https://leetcode-importer.onrender.com) for seamless integration.
@@ -29,9 +28,10 @@ To install Eleetcode Addon Extension, follow these steps:
 
 ## Usage
 
-Once the extension is installed and loaded, simply click on the Eleetcode Addon Extension icon in your Chrome toolbar. This will automatically log you into Leetcode and fetch your solved questions, providing a seamless experience for practicing coding challenges. Please note that Eleetcode Addon Extension is intended to be used in conjunction with Eleetcode/ [Leetcode Importer](https://leetcode-importer.onrender.com).
+Once the extension is installed and loaded, simply visit EleetCode/ [Leetcode Importer](https://leetcode-importer.onrender.com) and click on 'Login with Extention".
+
+The extension will perform it's magic and load all your solved Leetcode problems.
 
 ## Contributing
 
 Contributions are welcome! Feel free to submit bug reports, feature requests, or pull requests through the [GitHub repository](https://github.com/anxkhn/Eleetcode-Addon-Extention).
-
