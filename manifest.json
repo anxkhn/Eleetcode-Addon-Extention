@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Eleetcode Addons",
+  "version": "1.0",
+  "action": {
+    "default_icon": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  },
+  "permissions": ["activeTab", "scripting", "tabs"],
+  "host_permissions": ["https://leetcode.com/api/problems/all/"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://127.0.0.1:5000/login"],
+      "js": ["content.js"]
+    }
+  ]
+}
